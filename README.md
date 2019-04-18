@@ -15,7 +15,7 @@ Ruby installed on your desktop : [Please follow this link to install Ruby](https
 4. Launch the program in your terminal
 > ruby main.rb [Swedish Fit Login] [Swedish Fit Password] [Url of the Klass] & \
 for Example \
-> ruby main.rb yann@42.fr 42424242 [Url of the Klass] https://www.swedishfit.fr/cours/detail/?id=489248 &
+> ruby main.rb yann@42.fr 42424242 https://www.swedishfit.fr/cours/detail/?id=489248 &
 5. the script will be launch in background and execute the registration at midnight
 6. Dont forget the & at the end of the the commande so the script will execute in background
 
