@@ -1,5 +1,4 @@
 require 'mechanize'
-require 'parseconfig'
 
 if (ARGV[0] && ARGV[1] && ARGV[2])
 	#wait until midnight
