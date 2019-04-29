@@ -2,7 +2,8 @@ require 'mechanize'
 
 if (ARGV[0] && ARGV[1] && ARGV[2])
 	#wait until midnight
-	puts "Le script est démarré, il va s'executer automatiquement à minuit une"
+#	puts "Le script est démarré, il va s'executer automatiquement à minuit
+	#	une"
 	sleep(Time.parse("23:59:59") + 60 - Time.now)
 	
 	mechanize = Mechanize.new

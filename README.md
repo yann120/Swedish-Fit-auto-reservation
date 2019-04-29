@@ -12,11 +12,15 @@ Ruby installed on your desktop : [Please follow this link to install Ruby](https
 > git clone git clone https://github.com/yann120/Swedish-Fit-auto-reservation.git \
 > cd Swedish-Fit-auto-reservation \
 > gem install mechanize
-4. Launch the program in your terminal
-> ruby main.rb [Swedish Fit Login] [Swedish Fit Password] [Url of the Klass] & \
+4. For booking a Klass that start tomorrow, launch the program bookfortomorrow.rb in your terminal
+> ruby bookfortomorrow.rb [Swedish Fit Login] [Swedish Fit Password] [Url of the Klass]  \
 for Example \
-> ruby main.rb yann@42.fr 42424242 https://www.swedishfit.fr/cours/detail/?id=489248 &
-5. the script will be launch in background and execute the registration at midnight
-6. Dont forget the & at the end of the the commande so the script will execute in background
+> ruby bookfortomorrow.rb yann@42.fr 42424242 https://www.swedishfit.fr/cours/detail/?id=489248 
+5. the script will book the Klass at Midnight.
 
+4. For booking a Klass that is full, launch the program bookfullklass.rb in your terminal 
+> ruby bookfullklass.rb [Swedish Fit Login] [Swedish Fit Password] [Url of the Klass]  \
+for Example \
+> ruby bookfortomorrow.rb yann@42.fr 42424242 https://www.swedishfit.fr/cours/detail/?id=489248 
+if the Klass is full, it will retry every 5 minutes
 ## Please contact me if something doesn't work!
