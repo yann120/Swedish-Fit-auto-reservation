@@ -9,7 +9,7 @@ Ruby installed on your desktop : [Please follow this link to install Ruby](https
 1. Go on [Swedish fit website](https://www.swedishfit.fr/), log in and choose a Klass that will start tomorrow.
 2. Copy the URL of the Klass, the link should be like this https://www.swedishfit.fr/cours/detail/?id=489248 or https://www.swedishfit.fr/cours/detail/?id=480112&u=xxxx
 3. Install the program with your terminal :
-> git clone git clone https://github.com/yann120/Swedish-Fit-auto-reservation.git \
+> git clone https://github.com/yann120/Swedish-Fit-auto-reservation.git \
 > cd Swedish-Fit-auto-reservation \
 > gem install mechanize
 4. For booking a Klass that start tomorrow, launch the program bookfortomorrow.rb in your terminal
