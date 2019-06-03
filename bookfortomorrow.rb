@@ -10,7 +10,7 @@ if (ARGV[0] && ARGV[1] && ARGV[2])
 	#login with mechanize
 	mechanize.get('https://www.swedishfit.fr/') do |page|
 		#click the login link
-		login_page = mechanize.click(page.link_with(:text => /m'identifier/))
+		login_page = mechanize.click(page.link_with(:text => /M'identifier/))
 		# Submit the login form
 		my_page = login_page.form_with(:action => 'https://www.swedishfit.fr/lo/') do |f|
 			f.em = ARGV[0]
